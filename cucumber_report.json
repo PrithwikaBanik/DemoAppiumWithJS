@@ -1,0 +1,64 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sample-feature;open-app-and-verify",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open App and Verify",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the app is launched",
+            "match": {
+              "location": "features/step_definitions/steps.js:25"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5003921625,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/niajulhasan/Documents/Appium_JavaScript/node_modules/@cucumber/cucumber/lib/time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to the main screen",
+            "match": {
+              "location": "features/step_definitions/steps.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the welcome message",
+            "match": {
+              "location": "features/step_definitions/steps.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sample-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sample Feature",
+    "tags": [],
+    "uri": "features/test.feature"
+  }
+]
